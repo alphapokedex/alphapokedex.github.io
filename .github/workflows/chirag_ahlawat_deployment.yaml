@@ -1,5 +1,3 @@
-// generate code for deployment of chirag_ahlawat_deployment.yaml vue website /dist folder to github pages
-
 name: Deploy Chirag Ahlawat Website
 
 on:
