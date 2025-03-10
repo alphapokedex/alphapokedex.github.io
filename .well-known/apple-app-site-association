@@ -1,0 +1,28 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "93322BSZUH.com.atoa.merchantdev",
+        "paths": [
+          "/payments?id=*",
+          "/login?id=*"
+        ]
+      },
+      {
+        "appID": "93322BSZUH.com.atoa.merchantuat",
+        "paths": [
+          "/payments?id=*",
+          "/login?id=*"
+        ]
+      },
+      {
+        "appID": "93322BSZUH.com.atoa.merchant",
+        "paths": [
+          "/payments?id=*",
+          "/login?id=*"
+        ]
+      }
+    ]
+  }
+}
