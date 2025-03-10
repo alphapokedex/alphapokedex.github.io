@@ -5,8 +5,8 @@
       {
         "appID": "93322BSZUH.com.atoa.merchantdev",
         "paths": [
-          "/payments/*",
-          "/login/*"
+          "/payments?id=*",
+          "/login?id=*"
         ]
       },
       {
