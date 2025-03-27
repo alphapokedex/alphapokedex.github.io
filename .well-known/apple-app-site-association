@@ -19,6 +19,12 @@
         "paths": [
           "/payments"
         ]
+      },
+      {
+        "appID": "93322BSZUH.com.atoa.fluttersdk",
+        "paths": [
+          "/demopay"
+        ]
       }
     ]
   }
