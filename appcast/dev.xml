@@ -2,13 +2,13 @@
     <channel>
     <title>Atoa Business</title>
         <item>
-            <title>Version 4.0.0</title>
+            <title>Version 5.0.0</title>
             <description>Permission Re:</description>
             <sparkle:tags>
                 <sparkle:criticalUpdate/>
             </sparkle:tags>
             <pubDate>Tue, 1 Jul 2025 12:00:00 +0000</pubDate>
-            <enclosure url="https://apps.apple.com/gb/app/atoa-business/id1620667507" sparkle:version="4.0.0" sparkle:os="ios"/>
+            <enclosure url="https://apps.apple.com/gb/app/atoa-business/id1620667507" sparkle:version="5.0.0" sparkle:os="ios"/>
         </item>
     </channel>
 </rss>
