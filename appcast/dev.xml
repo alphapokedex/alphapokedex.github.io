@@ -10,14 +10,5 @@
             <pubDate>Tue, 1 Jul 2025 12:00:00 +0000</pubDate>
             <enclosure url="https://apps.apple.com/gb/app/atoa-business/id1620667507" sparkle:version="5.0.0" sparkle:os="ios"/>
         </item>
-        <item>
-            <title>Version 4.0.0</title>
-            <description>Running your business just got even easier with Atoa Add-ons. Choose the features that work for you, set automatic payment reminders to keep payments coming in, and create custom staff roles to give everyone on your team the right access. Head to the new Add-ons sections to try a 14-day free trial. And remember, we’re always here to answer your questions!</description>
-            <sparkle:tags>
-                <sparkle:criticalUpdate/>
-            </sparkle:tags>
-            <pubDate>Fri, 22 Jul 2024 12:00:00 +0000</pubDate>
-            <enclosure url="https://apps.apple.com/gb/app/atoa-business/id1620667507" sparkle:version="4.0.0" sparkle:os="ios"/>
-        </item>
     </channel>
 </rss>
