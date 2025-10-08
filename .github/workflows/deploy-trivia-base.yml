@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: |
           cd trivia_base
-          npm run build
+          npm run build:subdir
         env:
           VITE_TRIVIA_BASE_FIREBASE_API_KEY: ${{ secrets.TRIVIA_BASE_FIREBASE_API_KEY }}
           VITE_TRIVIA_BASE_FIREBASE_AUTH_DOMAIN: ${{ secrets.TRIVIA_BASE_FIREBASE_AUTH_DOMAIN }}
@@ -48,10 +48,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Prepare deployment
+        run: |
+          mkdir -p deploy/trivia_base
+          cp -r trivia_base/dist/* deploy/trivia_base/
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'trivia_base/dist'
+          path: 'deploy'
 
   deploy:
     environment:
