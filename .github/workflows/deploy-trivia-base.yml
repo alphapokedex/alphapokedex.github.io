@@ -2,7 +2,7 @@ name: Deploy Trivia Base to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ production ]
     paths:
       - 'trivia_base/**'
   workflow_dispatch:
