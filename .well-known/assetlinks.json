@@ -1,50 +1,11 @@
 [
     {
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.atoa.merchant",
-            "sha256_cert_fingerprints":
-                [
-                    "44:64:9E:5A:05:65:03:4A:A2:5A:CA:8D:62:C4:2D:D0:A7:7D:A9:E3:7D:B7:28:A1:FC:F8:47:E9:3A:2C:A2:1E",
-                    "C6:F8:0E:2A:5D:3B:67:CE:98:76:B7:3A:BA:EF:87:BD:70:2A:62:71:A6:47:DA:59:50:B7:5C:EE:3D:62:3D:AF"
-                ]
-        }
-    },
-    {
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.atoa.merchantdev",
-            "sha256_cert_fingerprints":
-                [
-                    "44:64:9E:5A:05:65:03:4A:A2:5A:CA:8D:62:C4:2D:D0:A7:7D:A9:E3:7D:B7:28:A1:FC:F8:47:E9:3A:2C:A2:1E",
-                    "C6:F8:0E:2A:5D:3B:67:CE:98:76:B7:3A:BA:EF:87:BD:70:2A:62:71:A6:47:DA:59:50:B7:5C:EE:3D:62:3D:AF"
-                ]
-        }
-    },
-    {
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.atoa.merchantuat",
-            "sha256_cert_fingerprints":
-                [
-                    "44:64:9E:5A:05:65:03:4A:A2:5A:CA:8D:62:C4:2D:D0:A7:7D:A9:E3:7D:B7:28:A1:FC:F8:47:E9:3A:2C:A2:1E",
-                    "C6:F8:0E:2A:5D:3B:67:CE:98:76:B7:3A:BA:EF:87:BD:70:2A:62:71:A6:47:DA:59:50:B7:5C:EE:3D:62:3D:AF"
-                ]
-        }
-    },
-    {
-        "relation": ["delegate_permission/common.handle_all_urls"],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.atoa.fluttersdk",
-            "sha256_cert_fingerprints":
-                [
-                    "4D:F3:DD:3A:19:E5:97:AD:21:A8:5F:47:E4:B3:D2:47:06:A7:53:CB:68:8A:87:C0:FC:5D:4B:1F:9E:02:6D:D1",
-                    "51:3F:C5:C3:5A:92:B0:6D:40:BE:B1:BD:1D:E4:64:6C:78:CB:73:60:C9:49:E3:0E:CE:3E:B3:22:6A:98:98:53"
-                ]
-        }
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.alphapokedex.trivia_base",
+        "sha256_cert_fingerprints":
+          ["83:38:54:73:A7:25:DD:5B:74:C7:CE:09:E0:BE:3E:C8:28:BF:B6:D9:59:16:23:3C:3D:79:BD:D7:DB:66:1B:6D"]
+      }
     }
-]
+  ]

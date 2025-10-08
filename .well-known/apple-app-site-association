@@ -3,27 +3,9 @@
     "apps": [],
     "details": [
       {
-        "appID": "93322BSZUH.com.atoa.merchantdev",
+        "appID": "<your-team-id>.<bundle-id>",
         "paths": [
-          "/payments"
-        ]
-      },
-      {
-        "appID": "93322BSZUH.com.atoa.merchantuat",
-        "paths": [
-          "/payments"
-        ]
-      },
-      {
-        "appID": "93322BSZUH.com.atoa.merchant",
-        "paths": [
-          "/payments"
-        ]
-      },
-      {
-        "appID": "93322BSZUH.com.atoa.fluttersdk",
-        "paths": [
-          "/demopay"
+          "*"
         ]
       }
     ]
