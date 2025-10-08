@@ -80,7 +80,7 @@ export class FirebaseInitService {
     }
 
   private _getFirebaseConfig() {
-    return {
+      const config = {
       apiKey: import.meta.env.VITE_TRIVIA_BASE_FIREBASE_API_KEY,
       authDomain: import.meta.env.VITE_TRIVIA_BASE_FIREBASE_AUTH_DOMAIN,
       projectId: import.meta.env.VITE_TRIVIA_BASE_FIREBASE_PROJECT_ID,
@@ -88,6 +88,18 @@ export class FirebaseInitService {
       messagingSenderId: import.meta.env.VITE_TRIVIA_BASE_FIREBASE_MESSAGING_SENDER_ID,
       appId: import.meta.env.VITE_TRIVIA_BASE_FIREBASE_APP_ID
     }
+
+      // Debug logging for environment variables
+      console.log('Firebase config check:', {
+          apiKey: config.apiKey ? '✓ Set' : '✗ Missing',
+          authDomain: config.authDomain ? '✓ Set' : '✗ Missing',
+          projectId: config.projectId ? '✓ Set' : '✗ Missing',
+          storageBucket: config.storageBucket ? '✓ Set' : '✗ Missing',
+          messagingSenderId: config.messagingSenderId ? '✓ Set' : '✗ Missing',
+          appId: config.appId ? '✓ Set' : '✗ Missing'
+      })
+
+      return config
   }
 
     private _validateConfig(config: any): boolean {
