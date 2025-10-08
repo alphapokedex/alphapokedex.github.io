@@ -12,6 +12,8 @@
         "setup": "./scripts/setup-node.sh",
         "dev": "vite",
         "build": "vite build",
+        "build:root": "VITE_BASE_PATH=/ npm run build",
+        "build:subdir": "VITE_BASE_PATH=/trivia_base/ npm run build",
         "preview": "vite preview",
         "deploy": "npm run build && echo 'Build complete. Push to GitHub to deploy.'"
     },
