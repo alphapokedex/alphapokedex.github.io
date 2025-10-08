@@ -1,1 +1,0 @@
-# alphapokedex.github.io

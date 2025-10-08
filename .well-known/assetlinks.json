@@ -1,0 +1,11 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.alphapokedex.trivia_base",
+        "sha256_cert_fingerprints":
+          ["83:38:54:73:A7:25:DD:5B:74:C7:CE:09:E0:BE:3E:C8:28:BF:B6:D9:59:16:23:3C:3D:79:BD:D7:DB:66:1B:6D"]
+      }
+    }
+  ]
