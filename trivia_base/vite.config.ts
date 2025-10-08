@@ -14,6 +14,6 @@ export default defineConfig({
     },
     build: {
         outDir: 'dist',
-        assetsDir: 'trivia_base/assets'
+        assetsDir: 'assets'
     }
 })
