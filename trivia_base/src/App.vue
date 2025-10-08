@@ -39,6 +39,11 @@ const initializeFirebase = async () => {
     isLoading.value = true
     hasError.value = false
     
+    // Log current origin for debugging
+    console.log('Current origin:', window.location.origin)
+    console.log('Current protocol:', window.location.protocol)
+    console.log('Current hostname:', window.location.hostname)
+    
     const result = await firebaseInitService.initialize(10000) // 10 second timeout
     
     if (result.success) {
@@ -49,6 +54,12 @@ const initializeFirebase = async () => {
     }
   } catch (error) {
     console.error('Firebase initialization error:', error)
+    console.error('Error details:', {
+      name: error instanceof Error ? error.name : 'Unknown',
+      message: error instanceof Error ? error.message : 'Unknown error',
+      stack: error instanceof Error ? error.stack : 'No stack trace'
+    })
+    
     hasError.value = true
     isLoading.value = false
     
